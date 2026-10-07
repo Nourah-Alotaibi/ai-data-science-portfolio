@@ -1,5 +1,6 @@
 {
-  "title": "Web security browser extension",
-  "original_ranking": 14,
-  "status": "in_progress"
+  "original_project_number": 14,
+  "title": "AI web-security Chrome extension prototype",
+  "status": "source audited; browser execution unverified",
+  "scope": "Description and implementation audit only; no scans executed."
 }

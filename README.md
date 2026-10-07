@@ -21,6 +21,10 @@ The experiment starts with regularized logistic regression, tests whether PCA he
 
 ![Customer Satisfaction: PCA, Regularization and Boosting: test confusion matrix](01-customer-satisfaction/results/test_confusion_matrix.png)
 
+![Customer Satisfaction: PCA, Regularization and Boosting: threshold selection](01-customer-satisfaction/results/threshold_selection.png)
+
+![Customer Satisfaction: PCA, Regularization and Boosting: threshold test confusion matrix](01-customer-satisfaction/results/threshold_test_confusion_matrix.png)
+
 ![Customer Satisfaction: PCA, Regularization and Boosting: validation comparison](01-customer-satisfaction/results/validation_comparison.png)
 
 ### 3 — Finding sentiment in Arabic spelling variation
@@ -79,6 +83,8 @@ CAMeLBERT provides frozen text representations; a separate logistic classifier l
 
 [Full project, results and reproduction instructions](10-arabic-transformers/README.md)
 
+![Arabic Transformer Features for Sentiment Classification: paired comparison](10-arabic-transformers/results/paired_comparison.png)
+
 ![Arabic Transformer Features for Sentiment Classification: test confusion matrix](10-arabic-transformers/results/test_confusion_matrix.png)
 
 ![Arabic Transformer Features for Sentiment Classification: validation comparison](10-arabic-transformers/results/validation_comparison.png)
@@ -124,6 +130,8 @@ Private Google Drive and Colab were not accessed because Chrome control failed b
 The web-security extension is an audited prototype, not an executed scanner. Noor's description reflects its existing project documentation and credits ONEPUNCHMAN411/Jarvis. No LinkedIn post or website change has been published.
 
 [Ready-to-edit LinkedIn descriptions, Noor, and explanations of projects 23–25](LINKEDIN-PROJECTS.md)
+
+[Longer LinkedIn story drafts with suggested figures](LINKEDIN-STORY-DRAFTS.md)
 
 ## Recommended LinkedIn order
 

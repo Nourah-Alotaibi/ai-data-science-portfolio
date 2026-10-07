@@ -1,0 +1,21 @@
+{
+  "test_rows": 5217,
+  "classical_accuracy": 0.7084531339850488,
+  "transformer_accuracy": 0.7155453325666091,
+  "accuracy_difference_percentage_points": 0.7092198581560284,
+  "paired_bootstrap_95pct_difference_pp": [
+    -0.6325474410580794,
+    2.032298255702508
+  ],
+  "transformer_only_correct": 653,
+  "classical_only_correct": 616,
+  "both_correct": 3080,
+  "both_wrong": 868,
+  "exact_mcnemar_two_sided_p": 0.31221574456325674,
+  "method": "Exact paired correctness test and 2000 row-wise paired bootstrap replicates. No models selected using this analysis.",
+  "limitations": [
+    "Post-hoc model comparison on the already reported shared test set.",
+    "Row-wise calculations assume independent examples; author/time dependencies are unknown.",
+    "Multiple testing across other experiments is not corrected; do not infer a general winner."
+  ]
+}

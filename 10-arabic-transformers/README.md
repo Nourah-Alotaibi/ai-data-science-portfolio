@@ -64,3 +64,15 @@ python train.py --data ../03-arabic-sentiment/data/prepared.csv --out results
 ## Attribution
 
 Portfolio project by Nourah Alotaibi. This package refactors the collected project into a new reproducible workflow. Dataset providers, upstream libraries and pretrained-model authors retain their respective rights. This repository does not grant a new license to third-party data or models.
+
+## Follow-up: compare the same test examples
+
+The transformer was correct on 653 examples where TF-IDF was wrong, while TF-IDF was correct on 616 examples where the transformer was wrong. Both were correct on 3080 and both were wrong on 868.
+
+The accuracy difference is **+0.71 percentage points**. Its paired row-bootstrap 95% interval is **−0.63 to +2.03 percentage points**, and the exact two-sided McNemar p-value is **0.312**. This does not establish a clear advantage for either approach.
+
+This is a post-hoc comparison of fixed, already reported models. Row-wise statistical calculations assume independent examples; author and time dependencies are unknown, and multiple comparisons across other experiments are not corrected.
+
+![Paired classical-versus-transformer comparison](results/paired_comparison.png)
+
+Full counts and methods: `results/paired_comparison.json`. `compare_predictions.py` reproduces the comparison from local prediction arrays and the shared fixed split; raw texts and per-row predictions are excluded from Git.

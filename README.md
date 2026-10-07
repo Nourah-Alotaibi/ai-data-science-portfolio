@@ -123,7 +123,7 @@ An unscaled linear-SVM baseline is compared with scaled candidates, selected onl
 
 ## Scope and publication status
 
-Nine improved workflows were executed; their result-review notebooks also execute. Figures, aggregate result tables, source code and descriptions are included. Raw data, credentials, encoders and trained checkpoints are excluded from the repository. The repositories were created private for review and are not yet public portfolio links.
+Nine improved workflows were executed; their result-review notebooks also execute. Figures, aggregate result tables, source code and descriptions are included. Raw data, credentials, encoders and trained checkpoints are excluded from the repository. The repositories are public and ready to share as portfolio links.
 
 Private Google Drive and Colab were not accessed because Chrome control failed before connecting. Local copies and explicitly identified public sources support these results. This is therefore not a complete inventory of cloud work. Thesis, heart disease, Tulip/Sanad, telecom churn and diabetes are excluded from this upgrade.
 

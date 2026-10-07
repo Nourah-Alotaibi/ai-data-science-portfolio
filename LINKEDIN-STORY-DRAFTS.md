@@ -1,6 +1,6 @@
 # LinkedIn story drafts
 
-Prepared drafts only; no posts have been published. Repository links are currently private. Replace the link with a public project URL before posting. First-person wording is a draft for Nourah to review, not a record of a personal statement she has already made.
+Prepared drafts only; no posts have been published. Repository links are public and ready to include when posting. First-person wording is a draft for Nourah to review, not a record of a personal statement she has already made.
 
 ## Noor — shaping an AI assistant people can actually set up
 

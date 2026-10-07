@@ -1,0 +1,1 @@
+The measured run used the already installed Transformers 4.38.0.dev0 development build with PyTorch 2.2.0+cpu. requirements.txt requests the nearest stable 4.38 release family for portability; bit-identical reproduction across builds is not promised. The encoder commit is recorded in metrics.json. No cloud AI API was used.

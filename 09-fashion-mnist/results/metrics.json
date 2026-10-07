@@ -1,0 +1,50 @@
+{
+  "dataset": "Official Zalando Fashion-MNIST, checksums verified",
+  "split_sizes": {
+    "train": 48000,
+    "validation": 12000,
+    "test": 10000
+  },
+  "selected_model": "Regularized CNN",
+  "selection_metric": "validation accuracy",
+  "test_results": {
+    "MLP baseline": {
+      "accuracy": 0.8652,
+      "balanced_accuracy": 0.8652000000000001,
+      "macro_f1": 0.8641123182903032,
+      "weighted_f1": 0.8641123182903031,
+      "accuracy_95pct_wilson": [
+        0.8583659821643959,
+        0.8717535351218433
+      ]
+    },
+    "Regularized CNN": {
+      "accuracy": 0.9314,
+      "balanced_accuracy": 0.9314,
+      "macro_f1": 0.9310533694754138,
+      "weighted_f1": 0.931053369475414,
+      "accuracy_95pct_wilson": [
+        0.9262781739004436,
+        0.9361905001337393
+      ]
+    }
+  },
+  "normalization": {
+    "mean": 0.2862528489520808,
+    "std": 0.35317387793819277
+  },
+  "runtime_seconds": 484.08042454719543,
+  "environment": {
+    "python": "3.11.9",
+    "numpy": "1.26.2",
+    "pandas": "2.1.4",
+    "sklearn": "1.3.2",
+    "scipy": "1.11.4",
+    "seed": 42,
+    "torch": "2.2.0+cpu"
+  },
+  "limitations": [
+    "Small benchmark images; not evaluated on real product photographs.",
+    "CNN and MLP have different fixed training budgets; not a compute-matched comparison."
+  ]
+}
